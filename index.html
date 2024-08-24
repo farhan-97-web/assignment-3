@@ -4,14 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/b2144cc8c2.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
 
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden font-manrope">
     <header>
         <nav class="flex justify-between items-center">
             <div>
@@ -157,15 +165,17 @@
                 <input type="text" placeholder="Last Name*" class="input input-bordered w-full" />
                 <input type="tel" placeholder="Phone Number*" class="input input-bordered w-full" />
                 <input type="email" placeholder="Email" class="input input-bordered w-full" />
-                <textarea class="textarea textarea-bordered h-60 w-full lg:col-span-2" placeholder="Type your message here..."></textarea>
+                <textarea class="textarea textarea-bordered h-60 w-full lg:col-span-2"
+                    placeholder="Type your message here..."></textarea>
                 <button class="btn w-full lg:col-span-2">Send Mail</button>
-                
+
             </div>
         </section>
     </main>
     <footer>
         <h1 class="text-2xl lg:text-4xl font-extrabold py-4 text-center">Rinterio</h1>
-        <p class="text-lg lg:text-xl font-semibold text-center mb-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        <p class="text-lg lg:text-xl font-semibold text-center mb-4">The barn house captivates with its blend of rustic
+            charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         <ul class="text-center">
             <li>Home</li>
             <li>Services</li>
