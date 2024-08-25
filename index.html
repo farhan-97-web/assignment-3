@@ -20,7 +20,7 @@
 </head>
 
 <body class="overflow-x-hidden font-manrope">
-    <header>
+    <header class="px-4 lg:px-28">
         <nav class="flex justify-between items-center">
             <div class="flex items-center gap-3">
                 <span class="border rounded-full w-8 h-8 p-1 bg-[#ABEF5F] text-center -rotate-45"><i
@@ -30,7 +30,7 @@
             <div>
                 <ul class="hidden lg:flex gap-4 menu menu-horizontal">
                     <a href="#">
-                        <li>Home</li>
+                        <li  class="text-black font-bold">Home</li>
                     </a>
                     <a href="#">
                         <li>Services</li>
@@ -54,16 +54,36 @@
         
             </div>
             <div class="lg:hidden">
-                <i class="fa-solid fa-bars"></i>
+                
+                <details class="dropdown dropdown-end">
+                    <summary class="btn rounded-full m-1"><i class="fa-solid fa-bars"></i></summary>
+                    <ul class="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        
+                        <a href="#">
+                            <li>Services</li>
+                        </a>
+                        <a href="#">
+                            <li>Portfolio</li>
+                        </a>
+                        <a href="#">
+                            <li>Blogs</li>
+                        </a>
+                        <a href="#">
+                            <li>Contact us</li>
+                        </a>
+                    </ul>
+                  </details>
             </div>
         </nav>
         <section class="banner-section text-center">
             <img class="flex mx-auto" src="assets/banner.png" alt="">
-            <h1 class="text-2xl lg:text-6xl font-extrabold py-5">A barn house of this design has a striking appearance
+            <h1 class="text-2xl lg:text-6xl font-extrabold py-5 text-[#212121]">Strikingly Designed Barn House with a Bold and Captivating Aesthetic
             </h1>
-            <p class="text-lg lg:text-xl font-semibold">The barn house captivates with its blend of rustic charm and
-                modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the
-                space with natural light.</p>
+            <p class="text-lg lg:text-xl font-semibold text-[#494949]">
+                A farmhouse offers spacious rooms, lush gardens, a swimming pool, outdoor seating, BBQ area, children's play zone, pet-friendly spaces, parking, farm activities, nature trails, serene surroundings, organic produce, and event hosting areas.</p>
            
                 
                 <button class="btn my-5 w-full lg:w-auto bg-[#ABEF5F80]"><span class="border rounded-full w-6 h-6 bg-[#ABEF5F]"><i
@@ -83,11 +103,9 @@
                     <button class="btn flex justify-center"><i
                         class="fa-solid fa-arrow-right"></i>About Us</button>
                   </div>
-                    <h1 class="text-2xl lg:text-4xl font-extrabold py-4 text-center lg:text-start">We design thoughtful,
+                    <h1 class="text-2xl lg:text-4xl font-extrabold py-4 text-center lg:text-start text-[#212121]">We design thoughtful,
                         liveable spaces</h1>
-                    <p class="text-lg lg:text-xl font-semibold text-center lg:text-start">The barn house captivates with
-                        its blend of rustic charm and
-                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <p class="text-lg lg:text-xl font-semibold text-center lg:text-start">A farmhouse offers spacious rooms, lush gardens, a swimming pool, outdoor seating, BBQ area, children's play zone, pet-friendly spaces, parking, farm activities, nature trails, serene surroundings, organic produce, and event hosting areas.</p>
                 </div>
                 <div class="flex gap-3 border p-3 my-5 justify-between lg:justify-normal items-center bg-white">
                     <img src="assets/commercial.png" alt="">
@@ -109,7 +127,7 @@
                 <img class="h-56 lg:h-96 w-full" src="assets/Rectangle.png" alt="">
             </div>
         </section>
-        <section class="our-works my-7">
+        <section class="our-works my-7 mx-4 lg:mx-28">
             <div class="flex justify-center">
                 <button class="btn flex justify-center"><i
                     class="fa-solid fa-arrow-right"></i>How we works</button>
@@ -141,7 +159,7 @@
                 </div>
             </div>
         </section>
-        <section class="our-portfolio">
+        <section class="our-portfolio mx-4 lg:mx-28">
             <div class="flex justify-center">
                 <button class="btn flex justify-center"><i
                     class="fa-solid fa-arrow-right"></i>Explore our latest works</button>
@@ -185,14 +203,13 @@
             </div> <!--parent end-->
         </section>
         
-        <section class="form my-7  bg-[url('assets/bg.jpg')] bg-no-repeat bg-cover lg:px-56">
+        <section class="form py-7  bg-[url('assets/bg.jpg')] bg-no-repeat bg-cover px-4 lg:px-56">
             <div class="flex justify-center p-5">
                 <button class="btn flex justify-center"><i
                     class="fa-solid fa-arrow-right"></i>Let's Connect</button>
               </div>
             <h1 class="text-2xl lg:text-4xl font-extrabold py-4 text-center">Let's Discuss Next Project</h1>
-            <p class="text-lg lg:text-xl font-semibold text-center mb-4">The barn house captivates with its blend of
-                rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <p class="text-lg lg:text-xl font-semibold text-center mb-4">A farmhouse includes airy rooms, flower-filled gardens, a relaxing pool, patio seating, BBQ setup, kids fun zone, pet areas, secure parking, farm tours, nature walks, tranquil vibes, fresh crops, and celebration spaces.</p>
             <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <input type="text" placeholder="First Name*" class="input input-bordered w-full" />
                 <input type="text" placeholder="Last Name*" class="input input-bordered w-full" />
@@ -206,14 +223,13 @@
             </div>
         </section>
     </main>
-    <footer class="bg-[#1C1C1C] my-4">
+    <footer class="bg-[#1C1C1C] py-4 px-4 lg:px-28">
         <div class="flex items-center gap-3 justify-center">
             <span class="border rounded-full w-8 h-8 p-1 bg-[#ABEF5F] text-center -rotate-45"><i
                     class="fa-solid fa-arrow-right"></i></span>
             <p class="text-xl lg:text-3xl font-extrabold text-[#E9E9E9] my-4">Rinterio</p>
         </div>
-        <p class="text-lg lg:text-xl font-semibold text-center mb-4 text-[#737373]">The barn house captivates with its blend of rustic
-            charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        <p class="text-lg lg:text-xl font-semibold text-center mb-4 text-[#737373]">A farmhouse offers spacious interiors, verdant gardens, a cool pool, terrace seating, BBQ corner, play area, pet zones, safe parking, hands-on farm tasks, walking paths, quiet surroundings, organic produce, and gathering spaces.</p>
         <ul class="text-center text-[#E9E9E9] gap-4">
             <li>Home</li>
             <li>Services</li>
