@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/b2144cc8c2.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <style>
-        .font-manrope{
+        .font-manrope {
             font-family: "Manrope", sans-serif;
         }
     </style>
@@ -22,7 +22,9 @@
 <body class="overflow-x-hidden font-manrope">
     <header>
         <nav class="flex justify-between items-center">
-            <div>
+            <div class="flex items-center gap-3">
+                <span class="border rounded-full w-8 h-8 p-1 bg-[#ABEF5F] text-center -rotate-45"><i
+                        class="fa-solid fa-arrow-right"></i></span>
                 <p class="text-xl lg:text-3xl font-extrabold">Rinterio</p>
             </div>
             <div>
@@ -58,7 +60,11 @@
             <p class="text-lg lg:text-xl font-semibold">The barn house captivates with its blend of rustic charm and
                 modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the
                 space with natural light.</p>
-            <button class="btn my-5">View Details</button>
+           
+                
+                <button class="btn my-5 w-full bg-[#ABEF5F80]"><span class="border rounded-full w-6 h-6 bg-[#ABEF5F]"><i
+                    class="fa-solid fa-arrow-right -rotate-45 pt-1 pr-1"></i></span>View Details</button>
+           
         </section>
 
     </header>
@@ -66,6 +72,10 @@
         <section class="about-us bg-blue-50 lg:flex lg:gap-6 lg:p-20 lg:items-center">
             <div class="lg:w-1/2"> <!--content-->
                 <div>
+                  <div class="flex justify-center">
+                    <button class="btn flex justify-center"><i
+                        class="fa-solid fa-arrow-right"></i>About Us</button>
+                  </div>
                     <h1 class="text-2xl lg:text-4xl font-extrabold py-4 text-center lg:text-start">We design thoughtful,
                         liveable spaces</h1>
                     <p class="text-lg lg:text-xl font-semibold text-center lg:text-start">The barn house captivates with
@@ -93,6 +103,11 @@
             </div>
         </section>
         <section class="our-works">
+            <div class="flex justify-center">
+                <button class="btn flex justify-center"><i
+                    class="fa-solid fa-arrow-right"></i>How we works</button>
+              </div>
+            
             <h1 class="text-2xl lg:text-4xl font-extrabold py-4 text-center">Our Works Process</h1>
             <p class="text-lg lg:text-xl font-semibold text-center mb-4">The barn house captivates with its blend of
                 rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
@@ -120,6 +135,10 @@
             </div>
         </section>
         <section class="our-portfolio">
+            <div class="flex justify-center">
+                <button class="btn flex justify-center"><i
+                    class="fa-solid fa-arrow-right"></i>Explore our latest works</button>
+              </div>
             <h1 class="text-2xl lg:text-4xl font-extrabold py-4 text-center">Our Latest Portfolio</h1>
             <p class="text-lg lg:text-xl font-semibold text-center mb-4">The barn house captivates with its blend of
                 rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
@@ -130,7 +149,8 @@
                         <h1 class="text-xl font-bold">Commercial</h1>
                         <p>The barn house captivates with its blend of rustic charm and modern. The barn house
                             captivates with its blend of rustic charm and modern .</p>
-                        <button class="btn">View Details</button>
+                        <button class="btn">View Details<span class="border rounded-full w-6 h-6 bg-[#ABEF5F]"><i
+                            class="fa-solid fa-arrow-right -rotate-45 pt-1 pr-1"></i></span></button>
                     </div>
                 </div>
                 <div> <!--2-->
@@ -145,7 +165,8 @@
                         <h1 class="text-xl font-bold">Commercial</h1>
                         <p>The barn house captivates with its blend of rustic charm and modern. The barn house
                             captivates with its blend of rustic charm and modern .</p>
-                        <button class="btn">View Details</button>
+                            <button class="btn">View Details<span class="border rounded-full w-6 h-6 bg-[#ABEF5F]"><i
+                                class="fa-solid fa-arrow-right -rotate-45 pt-1 pr-1"></i></span></button>
                     </div>
                 </div>
                 <div> <!--5-->
@@ -157,6 +178,10 @@
             </div> <!--parent end-->
         </section>
         <section class="form">
+            <div class="flex justify-center">
+                <button class="btn flex justify-center"><i
+                    class="fa-solid fa-arrow-right"></i>Let's Connect</button>
+              </div>
             <h1 class="text-2xl lg:text-4xl font-extrabold py-4 text-center">Let's Discuss Next Project</h1>
             <p class="text-lg lg:text-xl font-semibold text-center mb-4">The barn house captivates with its blend of
                 rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
@@ -167,23 +192,30 @@
                 <input type="email" placeholder="Email" class="input input-bordered w-full" />
                 <textarea class="textarea textarea-bordered h-60 w-full lg:col-span-2"
                     placeholder="Type your message here..."></textarea>
-                <button class="btn w-full lg:col-span-2">Send Mail</button>
+                <button class="btn w-full font-bold bg-[#ABEF5F] lg:col-span-2">Send Mail<span class="border rounded-full w-6 h-6 bg-[#1C1C1C]"><i
+                    class="fa-solid fa-arrow-right -rotate-45 pt-1 pr-1 text-[#ABEF5F]"></i></span></button>
 
             </div>
         </section>
     </main>
-    <footer>
-        <h1 class="text-2xl lg:text-4xl font-extrabold py-4 text-center">Rinterio</h1>
-        <p class="text-lg lg:text-xl font-semibold text-center mb-4">The barn house captivates with its blend of rustic
+    <footer class="bg-[#1C1C1C] my-4">
+        <div class="flex items-center gap-3 justify-center">
+            <span class="border rounded-full w-8 h-8 p-1 bg-[#ABEF5F] text-center -rotate-45"><i
+                    class="fa-solid fa-arrow-right"></i></span>
+            <p class="text-xl lg:text-3xl font-extrabold text-[#E9E9E9] my-4">Rinterio</p>
+        </div>
+        <p class="text-lg lg:text-xl font-semibold text-center mb-4 text-[#737373]">The barn house captivates with its blend of rustic
             charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-        <ul class="text-center">
+        <ul class="text-center text-[#E9E9E9] gap-4">
             <li>Home</li>
             <li>Services</li>
             <li>Portfolio</li>
             <li>Blogs</li>
             <li>Contact Us</li>
         </ul>
-        <button class="btn">Book Consult</button>
+        <button class="btn w-full my-4 font-bold bg-[#ABEF5F] lg:col-span-2">Book Consult<span class="border rounded-full w-6 h-6 bg-[#1C1C1C]"><i
+            class="fa-solid fa-arrow-right -rotate-45 pt-1 pr-1 text-[#ABEF5F]"></i></span></button>
+
     </footer>
 </body>
 
